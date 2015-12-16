@@ -1,0 +1,9 @@
+git init: creates a Git repo
+git diff filename: lists changes between current commit and most recent commit
+git log: shows previous commits
+git checkout HEAD filename: undos changes in staging area
+git reset HEAD filename: unstages a file
+git add -A : adds all files to the stage
+git commit -m commits the changes to the repository with a message
+git push: puts files online
+git clone link: clones respository from github link or ssh to current directory
