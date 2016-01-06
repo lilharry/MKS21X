@@ -1,0 +1,32 @@
+import java.util.Arrays;
+public class Sorts{
+    public static int[] InsertionSort(int[]array){
+	int currentval = array[0];
+	for (int i = 0;i<array.length - 1;i++){
+	    currentval = array[i];
+	    int j;
+	    for (j = i - 1; j >= 0 && currentval < a[j]; j--){
+		array[j+1] = a[j];
+	    }
+	    array[j+1] = currentval;
+		    
+	}
+	    
+    }
+
+    public static int[] SelectionSort(int[]array){
+	for (int i = 0;i<array.length;i++){
+	    int currentval = array[i];
+	    int j;
+	    for (int j = i + 1; j<array.length && array[j] > currentval; j++){
+	    }
+	    if (array[j] > currentval){
+		array[i] = array[j];
+		array[j] = currentval;
+	    }
+	    
+	}
+    }
+    public static void main(String[]args){
+    }
+}
